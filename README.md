@@ -1,24 +1,15 @@
 # todo-list
 
-## Project setup
-```
-npm install
-```
+1. Skriv in ett Todo-item i input rutan.
+2. Tryck ENTER eller på knappen "Add Todo".
+3. Du har nu 3 alternativ:
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+- Tryck på papperskorgen för att ta bort din Todo.
+- Tryck på Check rutan om din Todo är klar.
+- Tryck på knappen "Show more" För att se mer information om din Todo.
 
-### Compiles and minifies for production
-```
-npm run build
-```
+4. Trycker du på "Show more"-knappen får kommer det upp en modal som visar
+   vilket datum din todo skapades. Du ser även en symbol om Todon är klar.
+   För att stänga modalen trycker du på Kryss-iconen eller trycker utanför modalen.
 
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+5. Applikationen är responsiv och funkar därför i mobil, läsplatt och skrivbordsläge.

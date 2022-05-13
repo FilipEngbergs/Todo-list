@@ -1,0 +1,28 @@
+%clickable {
+  transition: 0.2s ease transform, 0.1s ease color;
+
+  &:hover,
+  &:active {
+    transform: scale(110%);
+    cursor: pointer;
+  }
+
+  &:active {
+    transform: scale(107%);
+    color: white;
+  }
+}
+%buttonStyle {
+  background-color: #c2f4fb;
+  border-radius: 100px;
+  box-shadow: rgba(10, 6, 250, 0.2) 0 -25px 18px -14px inset,
+    rgba(44, 106, 187, 0.15) 0 1px 2px, rgba(44, 130, 187, 0.15) 0 2px 4px,
+    rgba(44, 111, 187, 0.15) 0 4px 8px, rgba(44, 89, 187, 0.15) 0 8px 16px,
+    rgba(44, 106, 187, 0.15) 0 16px 32px;
+  color: rgb(0, 19, 128);
+  display: inline-block;
+  padding: 7px 20px;
+  text-align: center;
+  border: 0;
+  font-size: 16px;
+}
